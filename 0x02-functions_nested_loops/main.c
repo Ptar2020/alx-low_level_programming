@@ -8,8 +8,7 @@
 
 int main(void)
 {
-  print_alphabet();
-  printf("Next function");
+  /** print_alphabet();*/
   print_alphabet_x10();  
   return 0;
 }
