@@ -11,7 +11,8 @@ int main()
   int c = 5;
   /** print_alphabet();*/
   /** print_alphabet_x10();*/
-   _islower(c);
+  /** _islower(c);*/
+  _isalpha(c);
    /**add(c);*/
   return 0;
 }
