@@ -3,12 +3,15 @@
 /**
  * add
  *
+ * @a one of the numbers
+ * @b the other number
+ * @ans the answer returned
  * Return
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-  int a, b, ans;
+  int ans;
   ans = a + b;
   return ans;
 }
