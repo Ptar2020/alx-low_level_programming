@@ -2,8 +2,8 @@
 /**
  * _islower - entry point
  *
- * c - The argument passed to help work out the answer.
  * Return: the answer returned by the function
+ * int c - The argument passed to help work out the answer.
  */
 int _islower(int c)
 {
