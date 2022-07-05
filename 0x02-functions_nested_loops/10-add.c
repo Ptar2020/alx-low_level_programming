@@ -3,9 +3,9 @@
 /**
  * add - the entry to the function
  *
- * @a one of the numbers
- * @b the other number
- * @ans the answer returned
+ * @a: one of the numbers
+ * @b: the other number
+ * @ans: the answer returned
  * Return: the value of the addition
  */
 
