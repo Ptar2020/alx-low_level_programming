@@ -6,10 +6,13 @@
  * Return: Always 0.
  */
 
-int main(void)
+int main()
 {
+  int c = 5;
   /** print_alphabet();*/
-  print_alphabet_x10();  
+  /** print_alphabet_x10();*/
+   _islower(c);
+   /**add(c);*/
   return 0;
 }
 
