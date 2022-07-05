@@ -17,7 +17,8 @@ int main()
   /** _isalpha(c);*/
   /**print_sign(c);*/
   /**add(a,b);*/
-  print_last_digit(a);
+  _abs(a);
+  /**print_last_digit(a);*/
   return 0;
 }
 
