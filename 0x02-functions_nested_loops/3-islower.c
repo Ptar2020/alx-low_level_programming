@@ -2,7 +2,7 @@
 /**
  * _islower - entry point
  *
- * @c - The argument passed to help work out the answer.
+ * @c: The argument passed to help work out the answer.
  * Return: the answer returned by the function
  */
 int _islower(int c)
