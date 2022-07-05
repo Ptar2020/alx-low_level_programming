@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
- * _is_lower - entry point 
+ * _islower - entry point 
  *
- * Return the return of the function
+ * c: The argument passed to help work out the answer.
+ * Return: the answer returned by the function
  */
 int _islower(int c)
 {
