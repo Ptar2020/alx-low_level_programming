@@ -12,7 +12,8 @@ int main()
   /** print_alphabet();*/
   /** print_alphabet_x10();*/
   /** _islower(c);*/
-  _isalpha(c);
+  /** _isalpha(c);*/
+  print_sign(c);
    /**add(c);*/
   return 0;
 }
