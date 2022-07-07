@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *
+*
 * print_numbers - entry point
-* *
+*
 * return: th returned numbers
 */
 void print_numbers(void)

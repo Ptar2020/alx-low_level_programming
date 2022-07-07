@@ -2,12 +2,12 @@
 
 /**
 *
-* isupper - the main function
+* _isupper - the main function
 *
 * Return:The return of the function
 */
 
-int isupper(int c)
+int _isupper(int c)
 {
     if (c <= 65 && c >= 90)
     {
