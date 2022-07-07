@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * fizz_buzz - function call
 *
@@ -18,42 +19,22 @@ int main()
         {
             if  (i % 5 == 0)
             {
-                _putchar('F');
-                _putchar('i');
-                _putchar('z');
-                _putchar('z');
-                _putchar('B');
-                _putchar('u');
-                _putchar('z');
-                _putchar('z');
+                printf("FizzBuzz");
             }
             else
             {
-                _putchar('F');
-                _putchar('i');
-                _putchar('z');
-                _putchar('z');
+                printf("Fizz");
             }
         }
         if (i % 5 == 0)
         {
             if  (i % 3 == 0)
             {
-                _putchar('F');
-                _putchar('i');
-                _putchar('z');
-                _putchar('z');
-                _putchar('B');
-                _putchar('u');
-                _putchar('z');
-                _putchar('z');
+                printf("FizzBuzz");
             }
             else
             {
-                _putchar('F');
-                _putchar('i');
-                _putchar('z');
-                _putchar('z');
+                printf("Buzz");
             }
         }
         a++;
