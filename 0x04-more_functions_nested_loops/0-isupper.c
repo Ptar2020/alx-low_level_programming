@@ -9,11 +9,9 @@
 
 int isupper(int c)
 {
-    c = 65;
-    while (c <= 90)
+    if (c <= 65 && c >= 90)
     {
         return (1);
-        c++;
     }
     return (0);
 }
