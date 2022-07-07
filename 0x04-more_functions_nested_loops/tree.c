@@ -1,4 +1,6 @@
-#include "main.h"
+//#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * more_numbers- start here
@@ -14,11 +16,10 @@ void more_numbers(void)
         char c;
         for (c = 0; c <= 14; c++)
         {
-            _putchar(c);
+            printf("%i",c);
         }
-        i++;
     }
-    _putchar('\n');
-
+    printf("\n");
+    i++;
 
 }
