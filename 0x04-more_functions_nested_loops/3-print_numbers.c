@@ -8,10 +8,12 @@
 */
 void print_numbers(void)
 {
-    int c;
-    for (c = 48; c <= 57; c++)
+    int x;
+
+    for (x = 0; x <= 9; x++)
     {
-        _putchar(c);
+        _putchar(x);
     }
+
     _putchar('\n');
 }
