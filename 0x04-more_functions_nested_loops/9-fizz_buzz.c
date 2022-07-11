@@ -27,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%i, ", x);
+			printf("%i ", x);
 		}
 	}
 	return (0);
