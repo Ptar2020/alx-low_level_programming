@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- *  reset_to_98 - the working function
+ *  reset_to_98 - the function that resets the number
  *  @n: The variable to test
  *
  *  Return void
