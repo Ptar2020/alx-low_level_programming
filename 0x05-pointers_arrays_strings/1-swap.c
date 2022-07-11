@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * swap - the executing function entry
- *
+ * swap_int - the executing function entry
+ * @x: The The first pointe vaiable
  * @n: The pointer to variable n
  * return void
  *
