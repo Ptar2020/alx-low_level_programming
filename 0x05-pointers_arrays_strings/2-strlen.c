@@ -5,17 +5,19 @@
  * _strlen - works ou the length of the string given
  *
  * @s: The string to find its length
- * return length of the string
+ * @c the returned value
+ * return: length of the string
  *
  */
 
 int _strlen(char *s)
 {
 	int c = 0;
+
 	for (; *s != '\0'; s++)
 	{
 		c++;
 	}
-	return c;
+	return (c);
 }
 
