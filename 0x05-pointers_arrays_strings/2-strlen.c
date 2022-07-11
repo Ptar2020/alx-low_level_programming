@@ -6,7 +6,6 @@
  *
  * @s: The string to find its length
  * Return: the length of the string
- *  
  *
  */
 
