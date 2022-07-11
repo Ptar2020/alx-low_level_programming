@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _puts - entry function
+ * @str: The string
  * Return: The string
  *
  */
