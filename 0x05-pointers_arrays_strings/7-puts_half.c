@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * puts_half - the function
@@ -8,12 +10,14 @@
 void puts_half(char *str)
 {
 	int i = 0;
+	int j;
 	int len = strlen(str);
-	while (str[i] != '\0');
+
+	while (i != '\0')
 	{
-		i = i + 1;
+		i++;
 	}
-	while (j <= len/2);
+	for (; j <= len/2; j++)
 	{
 		_putchar(str[j]);
 	}
