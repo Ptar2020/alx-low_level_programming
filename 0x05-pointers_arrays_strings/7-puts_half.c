@@ -4,7 +4,7 @@
 
 /**
  * puts_half - the function
- * @s: the string to print
+ * @str: the string to print
  * return: void
  */
 void puts_half(char *str)
@@ -17,7 +17,7 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	for (; j <= len/2; j++)
+	for ( ; j <= len/2; j++)
 	{
 		_putchar(str[j]);
 	}
