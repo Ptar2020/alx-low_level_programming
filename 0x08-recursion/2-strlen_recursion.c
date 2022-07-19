@@ -5,7 +5,7 @@
  * @s: the string varible to count
  * @c: The counter for length of the string
  * @str_len: the variable carrying the returned answer
- * Return c
+ * Return str_len
  */
 
 int _strlen_recursiom(char *s)
