@@ -8,7 +8,7 @@
  * Return str_len
  */
 
-int _strlen_recursiom(char *s)
+int _strlen_recursion(char *s)
 {
 	int c = 0;
 
