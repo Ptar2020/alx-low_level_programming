@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _puts_recusrion - works out the printing task
+ *  _puts_recursion - works out the printing task
  *  @s: THe parameter passed to the function
  *  return nothing
  *
