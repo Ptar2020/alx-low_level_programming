@@ -3,8 +3,7 @@
 /**
  * _strlen_recursion - works out the length of the line
  * @s: the string varible to count
- * Return 1 or factorial
- * Return 0 if end of line
+ * Return 1 or 0
  *
  */
 
