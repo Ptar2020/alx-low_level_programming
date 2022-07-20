@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * wildcmp - function getting the answe
  * @s1: The first string
  * @s2: The second string
- * return: an integer value
+ * Return: an integer value
  */
-
 int wildcmp(char *s1, char *s2)
 {
 	if (*s1 != *s2)
@@ -16,6 +14,5 @@ int wildcmp(char *s1, char *s2)
 	else
 	{
 		return (1);
-	}
-	
+	}	
 }
