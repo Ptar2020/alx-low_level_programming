@@ -3,7 +3,7 @@
 /**
  * factorial - gets the factorial of a number
  * @n:The parameter containing the number
- * Return result 1 if number is 1 or less, the actual factorial otherwise
+ * Return integer value
  */
 
 int factorial(int n)

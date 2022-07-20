@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - works out the length of the line
  * @s: the string varible to count
- * Return 1 or 0
+ * Return integer value
  *
  */
 
