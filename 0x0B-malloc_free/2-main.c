@@ -19,5 +19,5 @@ int main(void)
     }
     printf("%s\n", s);
     free(s);
-    return (EXIT_SUCCESS);
+    return (0);
 }
