@@ -1,6 +1,13 @@
 #define MAIN_H
 #include <stdio.h>
-#include <Stdlib.h>
+#include <stdlib.h>
+
+/**
+ * create_array - the starting function
+ * @size: The size of the array
+ * @c:The array formed
+ * Return: The pointer to base address of the array
+ */
 
 char *create_array(unsigned int size, char c)
 {
