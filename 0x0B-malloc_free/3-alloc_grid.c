@@ -1,11 +1,10 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
   * alloc_grid - Does the assigned task
-  * @width: 
-  * @height: 
+  * @width: Just the width
+  * @height: Height
   *
   * Return: a
   */
