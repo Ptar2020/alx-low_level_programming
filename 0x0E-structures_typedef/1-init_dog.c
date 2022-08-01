@@ -3,11 +3,10 @@
 
 /**
  * init_dog - Initializer for the sog structure
- * @d:Dog structure
- * @name:The dogs name
- * The dogs age
- * The dog's owner
- *
+ * @d: Dog structure
+ * @name: The dogs name
+ * @age: The dogs age
+ * @owner: The dog's owner
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
