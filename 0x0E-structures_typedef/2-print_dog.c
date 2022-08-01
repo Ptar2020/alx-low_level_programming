@@ -5,6 +5,10 @@
 /**
  * print_dog - The sructure of the dog
  * @d: The structure of the dog
+ * @name:Dog's name
+ * @age:Dog's age
+ * @owner:Dog's owner
+ * Retun :NOTHING
  *
  */
 
