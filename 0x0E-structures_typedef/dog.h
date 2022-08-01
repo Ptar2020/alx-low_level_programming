@@ -1,6 +1,4 @@
 
-void init_dog(struct dog *d, char *name, float age, char *owner);
-
 /**
  * dog - The dog structure
  * @name:The dog name
@@ -14,3 +12,6 @@ struct dog
 	float age;
 	char *owner;
 };
+
+void print_dog(struct dog *d);
+void init_dog(struct dog *d, char *name, float age, char *owner);
