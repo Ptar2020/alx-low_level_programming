@@ -4,16 +4,16 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
- *
+ * sum_them_all - The summing function
+ * @n: The number of arguments
+ * @sum: The sum for all the varibles
+ * Return: 0 if n is 0, else sum
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list par;
-	int i = 0, sum = 0;
+	unsigned int i = 0, sum = 0;
 
 	va_start(par, n);
 	
