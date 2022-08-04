@@ -2,14 +2,12 @@
 #include "variadic_functions.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * sum_them_all - The summing function
  * @n: The number of arguments
  * @sum: The sum for all the varibles
  * Return: 0 if n is 0, else sum
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list par;
