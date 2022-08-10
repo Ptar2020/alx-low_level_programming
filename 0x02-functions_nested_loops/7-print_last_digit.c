@@ -1,14 +1,24 @@
 #include "main.h"
+
 /**
-* print_last_digit -  main for this function
-*
-* @a: the number to be tested
-* last: the variable container for the answer.
-* Return : The expected output
-*/
-int print_last_digit(int a)
+  * print_last_digit - Prints the last digit of a number
+  * @n: The number to be treated
+  *
+  * Return: Value of the last digit of number
+  */
+int print_last_digit(int n)
 {
-int last;
-last = a % 10;
-return (last);
+	int last;
+
+	last = n % 10;
+
+	if (last < 0)
+	{
+		last = last * -1;
+	}
+
+	_putchar(last + '0');
+
+	return (last);
 }
+
