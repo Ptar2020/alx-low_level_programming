@@ -10,20 +10,24 @@
   * Return: The address of the new element, or NULL it failed
   */
 
+
+
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *ptr = malloc(sizeof(listint_t));
+	listint_t *ptr;
 
-	if (ptr == NULL)
+	if (head != NULL)
 	{
-		printf("Empty List.");
+		ptr = malloc(sizeof(listint_t));
+		if (ptr == NULL)
+			return (NULL);
+
+		ptr->n = n;
+		ptr->next = *head;
+		*head = ptr;
+
+		return (ptr);
 	}
 
-	ptr->n = n;
-	ptr->next = *head;
-	*head = ptr;
-
-	return (ptr);
+	return (NULL);
 }
-
-
