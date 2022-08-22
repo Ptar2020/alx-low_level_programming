@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-  * readed_textfile - ...
+  * read_textfile - ...
   * @filename: The source file
   * @letters: Number of letters to readeds and prints
   *
   * Return: readed
   */
-ssize_t readed_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd, readed;
 	char *buff = malloc(sizeof(char *) * letters);
