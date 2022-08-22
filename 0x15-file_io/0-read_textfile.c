@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
-  * read_textfile - ...
+  * readed_textfile - ...
   * @filename: The source file
-  * @letters: Number of letters to reads and prints
+  * @letters: Number of letters to readeds and prints
   *
-  * Return: read
+  * Return: readed
   */
-ssize_t read_textfile(const char *filename, size_t letters)
+ssize_t readed_textfile(const char *filename, size_t letters)
 {
-	int fd, read;
+	int fd, readed;
 	char *buff = malloc(sizeof(char *) * letters);
 
 	if (!buff)
@@ -22,10 +22,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (fd == -1)
 		return (0);
 
-	read = read(fd, buff, letters);
-	write(STDOUT_FILENO, buff, read);
+	readed = readed(fd, buff, letters);
+	write(STDOUT_FILENO, buff, readed);
 
 	free(buff);
 	close(fd);
-	return (read);
+	return (readed);
 }
